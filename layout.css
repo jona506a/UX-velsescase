@@ -13,6 +13,7 @@ body {
 .img1 {
     background-image: url(img1.jpg);
     width: 30vw;
+    height: 40vw;
     height: auto;
     background-size: contain;
     background-position: center;
@@ -34,9 +35,68 @@ body {
 .img3 {
     background-image: url(img3.jpg);
     width: 30vw;
-    height: auto;
+    height: 40vw;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 
+}
+
+#container2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.skitse_img1 {
+    background-image: url(skitse1.jpg);
+    width: 30vw;
+    height: 40vw;
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.skitse_img2 {
+    background-image: url(skitse2.jpg);
+    width: 30vw;
+    height: 40vw;
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.skitse_img3 {
+    background-image: url(skitse3.jpg);
+    width: 30vw;
+    height: 40vw;
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item {
+    position: relative;
+
+    border: 1px solid #333;
+
+    overflow: hidden;
+    width: 540px;
+}
+
+.item img {
+    max-width: 100%;
+
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.item:hover img {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
