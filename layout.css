@@ -1,6 +1,6 @@
 body {
     font-family: Sans-serif;
-
+    margin: 40px;
 }
 
 #container {
@@ -11,7 +11,7 @@ body {
 }
 
 .img1 {
-    background-image: url(img1.jpg);
+    background-image: url(images/img1.jpg);
     width: 30vw;
     height: 40vw;
     height: auto;
@@ -22,7 +22,7 @@ body {
 }
 
 .img2 {
-    background-image: url(img2.jpg);
+    background-image: url(images/img2.jpg);
     width: 30vw;
     height: 40vw;
 
@@ -33,7 +33,7 @@ body {
 }
 
 .img3 {
-    background-image: url(img3.jpg);
+    background-image: url(images/img3.jpg);
     width: 30vw;
     height: 40vw;
     background-size: contain;
@@ -49,7 +49,7 @@ body {
 }
 
 .skitse_img1 {
-    background-image: url(skitse1.jpg);
+    background-image: url(images/skitse1.jpg);
     width: 30vw;
     height: 40vw;
 
@@ -59,7 +59,7 @@ body {
 }
 
 .skitse_img2 {
-    background-image: url(skitse2.jpg);
+    background-image: url(images/skitse2.jpg);
     width: 30vw;
     height: 40vw;
 
@@ -69,7 +69,7 @@ body {
 }
 
 .skitse_img3 {
-    background-image: url(skitse3.jpg);
+    background-image: url(images/skitse3.jpg);
     width: 30vw;
     height: 40vw;
 
