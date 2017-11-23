@@ -3,6 +3,8 @@ body {
     margin: 40px;
 }
 
+
+
 #container {
     display: flex;
     flex-wrap: wrap;
@@ -10,35 +12,22 @@ body {
 
 }
 
-.img1 {
-    background-image: url(images/img1.jpg);
-    width: 30vw;
-    height: 40vw;
-    height: auto;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+.skema_pdf {
+    flex-basis: 250;
+    flex-grow: 1;
+
 
 }
 
-.img2 {
-    background-image: url(images/img2.jpg);
-    width: 30vw;
-    height: 40vw;
-
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+.fronter_pdf {
+    flex-basis: 250;
+    flex-grow: 1;
 
 }
 
-.img3 {
-    background-image: url(images/img3.jpg);
-    width: 30vw;
-    height: 40vw;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+.forhold_pdf {
+    flex-basis: 250;
+    flex-grow: 1;
 
 }
 
@@ -70,6 +59,36 @@ body {
 
 .skitse_img3 {
     background-image: url(images/skitse3.jpg);
+    width: 30vw;
+    height: 40vw;
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img1 {
+    background-image: url(images/img1.jpg);
+    width: 30vw;
+    height: 40vw;
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    background-image: url(images/img2.jpg);
+    width: 30vw;
+    height: 40vw;
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img3 {
+    background-image: url(images/img3.jpg);
     width: 30vw;
     height: 40vw;
 
